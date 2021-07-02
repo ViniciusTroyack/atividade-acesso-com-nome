@@ -1,0 +1,26 @@
+input {
+  width: 180px;
+  height: 40px;
+  margin: 10px;
+  font-size: large;
+}
+
+input:focus {
+  background-color: rgba(236, 238, 243, 0.959);
+  border: 3px solid firebrick;
+}
+
+input::placeholder {
+  text-align: center;
+}
+
+button {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid firebrick;
+  outline: none;
+  color: firebrick;
+  font-weight: bold;
+}

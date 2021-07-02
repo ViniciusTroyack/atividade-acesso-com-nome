@@ -1,0 +1,14 @@
+.welcomeDiv {
+  margin: 3vh;
+}
+
+button {
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 3px solid firebrick;
+  outline: none;
+  color: firebrick;
+  font-weight: bold;
+}
